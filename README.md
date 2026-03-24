@@ -210,9 +210,8 @@ social-security-advisor/
 **1817694478**
 
 ### 微信扫码留言
-<div style="margin: 20px 0;">
-  <img src="https://gpt.cntaxs.com/smart-admin-api/upload/public/notice/5eb569d40189404aa3a1a3fd0f0141fa_20260317215606.png" alt="微信二维码" style="width: 200px; max-width: 100%; height: auto;">
-</div>
+
+<img src="https://workbuddy-bga-1258344699.cos.ap-beijing.myqcloud.com/attachments/46594f1d-53b8-415d-b1a5-88a05be85fd2/1774340380_c0f57baf/miniprogram-code.png" alt="微信二维码" width="200">
 
 **微信扫码互动交流**
 
