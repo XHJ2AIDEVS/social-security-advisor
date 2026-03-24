@@ -69,7 +69,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/social-security-advisor.git
+git clone https://github.com/XHJ2AIDEVS/social-security-advisor.git
 
 # 复制 skill 目录到 WorkBuddy skills-marketplace
 cp -r social-security-advisor/skill ~/.workbuddy/skills-marketplace/skills/
@@ -209,12 +209,12 @@ social-security-advisor/
 ### QQ
 **1817694478**
 
-### 微信小程序
+### 微信扫码留言
 <div style="margin: 20px 0;">
-  <img src="poster/miniprogram-code.png" alt="小程序码" width="150">
+  <img src="https://gpt.cntaxs.com/smart-admin-api/upload/public/notice/5eb569d40189404aa3a1a3fd0f0141fa_20260317215606.png" alt="微信二维码" width="200">
 </div>
 
-**微信扫码使用小程序**
+**微信扫码互动交流**
 
 ---
 
@@ -228,7 +228,7 @@ social-security-advisor/
 
 如果这个项目对你有帮助，请给个 Star 支持一下！
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/social-security-advisor&type=Date)](https://star-history.com/#yourusername/social-security-advisor&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=XHJ2AIDEVS/social-security-advisor&type=Date)](https://star-history.com/#XHJ2AIDEVS/social-security-advisor&Date)
 
 ---
 
