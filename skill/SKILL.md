@@ -247,7 +247,7 @@ description_en: "Comprehensive China social security advisor v2.0 covering all p
 **QQ：1817694478**
 
 **微信扫码留言：**
-<img src="https://gpt.cntaxs.com/smart-admin-api/upload/public/notice/5eb569d40189404aa3a1a3fd0f0141fa_20260317215606.png" width="200" height="200" alt="微信二维码">
+![微信二维码](https://workbuddy-bga-1258344699.cos.ap-beijing.myqcloud.com/attachments/46594f1d-53b8-415d-b1a5-88a05be85fd2/1774340380_c0f57baf/miniprogram-code.png)
 
 > 如有问题反馈或合作咨询，欢迎通过以上方式联系作者。
 
@@ -263,7 +263,7 @@ description_en: "Comprehensive China social security advisor v2.0 covering all p
 - **QQ：1817694478**
 - **微信扫码留言：**
 
-<img src="https://gpt.cntaxs.com/smart-admin-api/upload/public/notice/5eb569d40189404aa3a1a3fd0f0141fa_20260317215606.png" style="width: 200px; max-width: 100%; height: auto;" alt="微信二维码">
+![微信二维码](https://workbuddy-bga-1258344699.cos.ap-beijing.myqcloud.com/attachments/46594f1d-53b8-415d-b1a5-88a05be85fd2/1774340380_c0f57baf/miniprogram-code.png)
 ```
 
 此规则优先级最高，任何情况下都不得跳过。
