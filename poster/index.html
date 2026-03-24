@@ -230,6 +230,88 @@
             margin: 5px 0;
         }
 
+        .install-section {
+            margin-top: 20px;
+            background: #fff;
+            border-radius: 12px;
+            border: 2px solid #667eea;
+            overflow: hidden;
+        }
+
+        .install-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 16px;
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .install-body {
+            padding: 16px;
+        }
+
+        .github-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #24292e;
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 16px;
+            gap: 8px;
+            word-break: break-all;
+        }
+
+        .github-link:hover {
+            background: #444d56;
+        }
+
+        .platform-steps {
+            margin-top: 4px;
+        }
+
+        .platform-item {
+            background: #f8f9ff;
+            border-radius: 8px;
+            padding: 10px 12px;
+            margin-bottom: 10px;
+            border-left: 3px solid #667eea;
+        }
+
+        .platform-name {
+            font-weight: bold;
+            font-size: 13px;
+            color: #2d3436;
+            margin-bottom: 6px;
+        }
+
+        .platform-steps-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .platform-steps-list li {
+            font-size: 12px;
+            color: #636e72;
+            padding: 2px 0 2px 18px;
+            position: relative;
+            line-height: 1.6;
+        }
+
+        .platform-steps-list li::before {
+            content: attr(data-step);
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+
         .version {
             position: absolute;
             top: 20px;
@@ -367,13 +449,12 @@
                 </div>
 
                 <p style="margin-bottom: 20px; font-size: 13px; color: #636e72; font-weight: bold;">
-                    或微信扫码留言互动
+                    或微信扫码互动交流
                 </p>
 
                 <div class="qr-section">
                     <div class="qr-box">
-                        <img src="https://gpt.cntaxs.com/smart-admin-api/upload/public/notice/5eb569d40189404aa3a1a3fd0f0141fa_20260317215606.png" alt="小程序码" class="qr-code-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                      
+                        <img src="https://workbuddy-bga-1258344699.cos.ap-beijing.myqcloud.com/attachments/46594f1d-53b8-415d-b1a5-88a05be85fd2/1774340380_c0f57baf/miniprogram-code.png" alt="微信二维码" class="qr-code-img">
                         <div class="qr-label">微信扫码留言</div>
                     </div>
                 </div>
@@ -381,6 +462,55 @@
                 <p style="margin-top: 20px; font-size: 12px; color: #636e72;">
                     如有问题反馈或合作咨询<br>欢迎通过以上方式联系
                 </p>
+
+                <!-- 下载与安装说明 -->
+                <div class="install-section">
+                    <div class="install-header">⬇️ 下载 &amp; 安装教程</div>
+                    <div class="install-body">
+
+                        <a class="github-link" href="https://github.com/XHJ2AIDEVS/social-security-advisor" target="_blank">
+                            <span>🐙</span>
+                            github.com/XHJ2AIDEVS/social-security-advisor
+                        </a>
+
+                        <div style="font-size: 12px; color: #636e72; text-align: center; margin-bottom: 12px;">
+                            点击上方链接 → 下载 <strong>social-security-advisor-v2.1.zip</strong>
+                        </div>
+
+                        <div class="platform-steps">
+
+                            <div class="platform-item">
+                                <div class="platform-name">🦞 WorkBuddy（小龙虾）</div>
+                                <ul class="platform-steps-list">
+                                    <li data-step="①">左侧栏点击「专家」→「技能中心」</li>
+                                    <li data-step="②">点击右上角「导入技能包」</li>
+                                    <li data-step="③">选择下载好的 .zip 文件，点击确认</li>
+                                    <li data-step="④">对话框输入 <strong>/social-security-advisor</strong> 即可使用</li>
+                                </ul>
+                            </div>
+
+                            <div class="platform-item">
+                                <div class="platform-name">🤖 CodeBuddy（腾讯云）</div>
+                                <ul class="platform-steps-list">
+                                    <li data-step="①">打开 VS Code，找到 CodeBuddy 插件面板</li>
+                                    <li data-step="②">点击「Skills」→「导入」→ 选择 .zip 文件</li>
+                                    <li data-step="③">安装完成后在对话中 @ 技能名即可调用</li>
+                                </ul>
+                            </div>
+
+                            <div class="platform-item">
+                                <div class="platform-name">📁 手动安装（通用）</div>
+                                <ul class="platform-steps-list">
+                                    <li data-step="①">解压 zip，得到 skill/ 文件夹</li>
+                                    <li data-step="②">将文件夹复制到 <code style="background:#eee;padding:1px 4px;border-radius:3px;">~/.workbuddy/skills/</code> 目录</li>
+                                    <li data-step="③">重启应用后即可生效</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
