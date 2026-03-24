@@ -211,7 +211,7 @@ social-security-advisor/
 
 ### 微信扫码留言
 <div style="margin: 20px 0;">
-  <img src="https://gpt.cntaxs.com/smart-admin-api/upload/public/notice/5eb569d40189404aa3a1a3fd0f0141fa_20260317215606.png" alt="微信二维码" width="200">
+  <img src="https://gpt.cntaxs.com/smart-admin-api/upload/public/notice/5eb569d40189404aa3a1a3fd0f0141fa_20260317215606.png" alt="微信二维码" style="width: 200px; max-width: 100%; height: auto;">
 </div>
 
 **微信扫码互动交流**
